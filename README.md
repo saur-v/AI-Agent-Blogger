@@ -25,6 +25,7 @@ AI Agent Blogger is a tool that takes a blog topic and automatically generates a
 - Download blog posts in Markdown or text format
 - Detailed generation information and source tracking
 
+
 ## Tech Stack
 
 - Python 3.9+
@@ -100,6 +101,20 @@ After generation, you can download:
 - Markdown format (.md) - preserves all formatting
 - Plain text format (.txt) - basic text version
 
+## Demo Workflow
+
+### Step-by-Step Example
+
+1. Enter a technical topic
+   ![Enter topic screenshot](screenshots/workflow-01-enter-topic.png)
+
+2. Processing in progress
+   ![Processing status screenshot](screenshots/workflow-02-processing.png)
+
+3. View generated content
+   ![Blog content display screenshot](screenshots/workflow-03-content.png)
+
+
 ## Project Structure
 
 ```
@@ -164,6 +179,7 @@ Core processing engine using LangGraph. Contains:
    - Identifies optimal image locations
    - Generates images using AI
    - Creates final formatted output
+
 
 ## Configuration
 
@@ -235,7 +251,6 @@ For issues or questions:
 2. Verify API keys are correctly set in .env
 3. Ensure internet connection for research and image generation
 4. Check that all dependencies are installed correctly
-
 
 ## Repository
 
